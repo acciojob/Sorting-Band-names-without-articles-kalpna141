@@ -1,6 +1,6 @@
 //your code here
 let arr=['Tajmahal', 'Victoria Memorial', 'The Virupaksha Temple'];
-let updateList=arr.map*(element)=>
+let updateList=arr.map*((element)=>
 	{
 		let words=element.split(" ");
 		let updateString=words.reduce((prev, current, index)=>{
@@ -10,7 +10,7 @@ let updateList=arr.map*(element)=>
 			return prev;
 		}, "")
 return updateString;
-}};
+});
 let mp={};
 updateList.forEach( (element, index) =>{
 	mp[element]= arr[index];
