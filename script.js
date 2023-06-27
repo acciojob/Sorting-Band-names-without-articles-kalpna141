@@ -1,6 +1,6 @@
 let bandNames=['The Virupaksha Temple', 'Victoria Memorial', 'Tajmahal']
 let articles = ['A', 'AN', 'THE']
- 
+
 	bandNames.sort((a,b) => (strip(a)> strip(b))? 1: -1)
 	const ref= document.getElementsByTagName("ul")[0] 
 	for (let i=0;i<bandNames.length; i++){
